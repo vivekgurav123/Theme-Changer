@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+.navbar .logo {
+  width: 50px;
+}
+.toggle {
+  width: 50px;
+}
+.navbar button {
+  background-color: transparent;
+  border: none;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+  list-style: none;
+}
+.light {
+  color: white;
+}
+.gray {
+  background-color: rgb(56, 56, 56);
+}

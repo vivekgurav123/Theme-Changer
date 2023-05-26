@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+.dark {
+  background-color: black;
+}
